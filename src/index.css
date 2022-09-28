@@ -216,7 +216,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  transform: translateX(4rem);
+  margin-left: 50px;
  }
 
  #iconComplete {
@@ -252,6 +252,7 @@ body {
 
   .formCont {
     width: 100%;
+    transform: scale(.95);
   }
 
   .cardCont {
@@ -294,4 +295,16 @@ body {
  .formCont {
   margin-top: 50px;
  }
+}
+
+.cvc {
+  font-size: 10px;
+  padding-top: 6px;
+  padding-bottom: 0;
+  margin-right: 2.3rem;
+}
+
+.thankYouMsg {
+  margin-top: 30px;
+  transform: scale(.95);
 }
