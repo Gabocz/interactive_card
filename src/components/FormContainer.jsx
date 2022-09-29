@@ -126,7 +126,7 @@ function FormContainer({setCardName, setCardNum, setCardMonth, setCardYear, setC
     return (
         <div className="formCont">
             <form action="#">
-                <label htmlFor="cardName">Cardholder Name</label>
+                <label htmlFor="cardNameInput">Cardholder Name</label>
                 <input 
                   value={nameInput}
                   className={noNameError ? 'redBorder' : ''}
@@ -141,7 +141,7 @@ function FormContainer({setCardName, setCardNum, setCardMonth, setCardYear, setC
                   <OtherErrorMsg 
                   />
                   </div>     
-                <label htmlFor="cardNumber">Card Number</label>
+                <label htmlFor="cardNumberInput">Card Number</label>
                 <input 
                   value={numInput}
                   className={numError || noNumError ? 'redBorder' : ''}
@@ -164,7 +164,7 @@ function FormContainer({setCardName, setCardNum, setCardMonth, setCardYear, setC
                   </div>
                 <div className="expDateCvcCont">
                   <div>
-                    <label htmlFor="expDate">Exp. Date (MM/YY)</label>
+                    <label htmlFor="monthInput">Exp. Date (MM/YY)</label>
                     <input 
                       value={monthInput}
                       className={monthError ? 'redBorder' : ''}
@@ -193,7 +193,7 @@ function FormContainer({setCardName, setCardNum, setCardMonth, setCardYear, setC
                   </div>
                   </div>
                   <div>
-                    <label id="cvcLabel" htmlFor="cvc">cvc</label>
+                    <label id="cvcLabel" htmlFor="cvcInput">cvc</label>
                     <input 
                       value={cvcInput}
                       className={cvcError || noCvcError ? 'redBorder' : ''}

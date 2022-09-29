@@ -103,7 +103,7 @@ body {
   font-size: .9rem;
   letter-spacing: 2px;
   color: #fff;
-  padding-bottom: 8px;
+  padding-bottom: 4px;
   margin-right: 3.5rem;
   opacity: .9;
 }
@@ -295,7 +295,7 @@ body {
  .formCont {
   margin-top: 50px;
  }
-}
+
 
 .cvc {
   font-size: 10px;
@@ -308,3 +308,5 @@ body {
   margin-top: 30px;
   transform: scale(.95);
 }
+
+ }
